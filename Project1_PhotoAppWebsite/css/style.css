@@ -1,0 +1,140 @@
+/*
+ COLOR REF:
+
+ Green : #329445
+ Blue : #30469D
+ Red/Orange : #C65739
+
+*/
+body {
+    padding-top: 50px;
+}
+
+/* ******************
+   *** TYPOGRAPHY ***
+   ****************** */
+.navbar-brand {
+    color: #329445 !important;
+}
+/* ***********
+   *** NAV ***
+   *********** */
+img.logo {
+    max-width: 50px;
+}
+/* ************
+   *** HERO ***
+   ************ */
+.jumbotron {
+    background: url('../img/map.jpg') no-repeat top center #329445;
+    background-size: cover;
+    color: #ffffff;
+    padding: 0;
+    height: 600px;
+}
+.jumbotron .app-btn {
+    width: 40%;
+    margin-right: 30px;
+    max-width: 225px;
+    padding-bottom: 30px;
+}
+.jumbotron h1 {
+    margin-top: 100px;
+}
+.jumbotron p {
+    margin-bottom: 100px;
+}
+.jumbotron #phoneDisplay {
+    max-height: 550px;
+    margin-top: 56px;
+}
+
+/* **************
+   *** Middle ***
+   ************** */
+#middleSection, #features {
+    padding: 40px 0;
+}
+#middleSection img {
+    width: 100%;
+    display: block;
+    margin: 15px auto;
+    border: 2px solid #dadada;
+    border-radius: 8px;
+    padding: 10px;
+}
+#middleSection h2 {
+    text-align: center;
+}
+
+#features {
+    background-color: #1caa98;
+    color: #ffffff;
+}
+#features ul li {
+    font-size: 22px;
+    list-style: none;
+    line-height: 2em;
+}
+#features img {
+    width: 100%;
+}
+
+/* **************
+   *** FOOTER ***
+   ************** */
+p.note {
+    font-style: italic;;
+    font-size: .8em;
+    margin-top: 20px;
+}
+footer div.container {
+    padding: 40px 0;
+}
+footer {
+    background: #333333;
+    color: #ffffff;
+}
+footer li {
+    float: left;
+    padding: 0 10px;
+    list-style: none;
+}
+footer p#copy {
+    float: right;
+}
+
+/* **************
+   *** ABOUT  ***
+   ************** */
+section#about {
+    padding: 10px 0;
+}
+#middleSection img,
+#about img,
+#contact img {
+    border: 2px solid lightgray;
+    border-radius: 8px;
+}
+#about img,
+#contact img {
+    max-width: 100%;
+}
+#title {
+    color: #fff;
+    background: #1caa98;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+}
+#title h1 {
+    margin-bottom: 20px;
+}
+
+/* ****************
+   *** CONTACT  ***
+   **************** */
+
+#contact {
+    padding: 20px 0 50px;
+}
